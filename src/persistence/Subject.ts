@@ -1,11 +1,11 @@
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { EntityMetadata } from "../metadata/EntityMetadata"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
 import { SubjectChangeMap } from "./SubjectChangeMap"
-import { OrmUtils } from "../util/OrmUtils"
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { OrmUtils } from "@/util/OrmUtils"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Subject is a subject of persistence.

@@ -1,6 +1,6 @@
-import { BaseConnectionOptions } from "../../connection/BaseConnectionOptions"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { BaseConnectionOptions } from "@/connection/BaseConnectionOptions"
 import { SpannerConnectionCredentialsOptions } from "./SpannerConnectionCredentialsOptions"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 /**
  * Spanner specific connection options.

@@ -1,6 +1,6 @@
-import { BaseDataSourceOptions } from "../../data-source/BaseDataSourceOptions"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { BaseDataSourceOptions } from "@/data-source/BaseDataSourceOptions"
 import { CockroachConnectionCredentialsOptions } from "./CockroachConnectionCredentialsOptions"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 /**
  * Cockroachdb-specific connection options.

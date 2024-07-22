@@ -1,6 +1,6 @@
-import { Subject } from "../Subject"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { ObjectUtils } from "../../util/ObjectUtils"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { Subject } from "@/persistence/Subject"
 
 /**
  * Finds all cascade operations of the given subject and cascade operations of the found cascaded subjects,

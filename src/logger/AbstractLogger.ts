@@ -5,9 +5,9 @@ import {
     LogMessageType,
     PrepareLogMessagesOptions,
 } from "./Logger"
-import { QueryRunner } from "../query-runner/QueryRunner"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 import { LoggerOptions } from "./LoggerOptions"
-import { PlatformTools } from "../platform/PlatformTools"
+import { PlatformTools } from "@/platform/PlatformTools"
 
 export abstract class AbstractLogger implements Logger {
     // -------------------------------------------------------------------------

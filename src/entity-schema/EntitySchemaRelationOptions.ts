@@ -1,11 +1,11 @@
-import { JoinColumnOptions } from "../decorator/options/JoinColumnOptions"
-import { RelationType } from "../metadata/types/RelationTypes"
-import { JoinTableMultipleColumnsOptions } from "../decorator/options/JoinTableMultipleColumnsOptions"
-import { DeferrableType } from "../metadata/types/DeferrableType"
-import { OnDeleteType } from "../metadata/types/OnDeleteType"
-import { OnUpdateType } from "../metadata/types/OnUpdateType"
-import { JoinTableOptions } from "../decorator/options/JoinTableOptions"
-import { EntityTarget } from "../common/EntityTarget"
+import { JoinColumnOptions } from "@/decorator/options/JoinColumnOptions"
+import { RelationType } from "@/metadata/types/RelationTypes"
+import { JoinTableMultipleColumnsOptions } from "@/decorator/options/JoinTableMultipleColumnsOptions"
+import { DeferrableType } from "@/metadata/types/DeferrableType"
+import { OnDeleteType } from "@/metadata/types/OnDeleteType"
+import { OnUpdateType } from "@/metadata/types/OnUpdateType"
+import { JoinTableOptions } from "@/decorator/options/JoinTableOptions"
+import { EntityTarget } from "@/common/EntityTarget"
 
 export interface EntitySchemaRelationOptions {
     /**

@@ -1,15 +1,15 @@
 import mkdirp from "mkdirp"
 import path from "path"
-import { DriverPackageNotInstalledError } from "../../error"
-import { PlatformTools } from "../../platform/PlatformTools"
-import { DataSource } from "../../data-source"
-import { ColumnType } from "../types/ColumnTypes"
-import { QueryRunner } from "../../query-runner/QueryRunner"
-import { AbstractSqliteDriver } from "../sqlite-abstract/AbstractSqliteDriver"
+import { DriverPackageNotInstalledError } from "@/error"
+import { PlatformTools } from "@/platform/PlatformTools"
+import { DataSource } from "@/data-source"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 import { BetterSqlite3ConnectionOptions } from "./BetterSqlite3ConnectionOptions"
 import { BetterSqlite3QueryRunner } from "./BetterSqlite3QueryRunner"
-import { ReplicationMode } from "../types/ReplicationMode"
-import { filepathToName, isAbsolute } from "../../util/PathUtils"
+import { filepathToName, isAbsolute } from "@/util/PathUtils"
+import { AbstractSqliteDriver } from "@/driver/sqlite-abstract/AbstractSqliteDriver"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
+import { ColumnType } from "@/driver/types/ColumnTypes"
 
 /**
  * Organizes communication with sqlite DBMS.

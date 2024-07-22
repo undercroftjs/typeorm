@@ -1,4 +1,4 @@
-import { BaseDataSourceOptions } from "../../data-source/BaseDataSourceOptions"
+import { BaseDataSourceOptions } from "@/data-source/BaseDataSourceOptions"
 import { SapConnectionCredentialsOptions } from "./SapConnectionCredentialsOptions"
 
 /**

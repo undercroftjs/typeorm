@@ -1,4 +1,4 @@
-import { TableColumnOptions } from "../options/TableColumnOptions"
+import { TableColumnOptions } from "@/schema-builder/options/TableColumnOptions"
 
 /**
  * Table's columns in the database represented in this class.

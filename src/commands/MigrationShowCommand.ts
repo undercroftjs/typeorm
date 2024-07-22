@@ -1,7 +1,7 @@
-import { DataSource } from "../data-source"
+import { DataSource } from "@/data-source"
 import * as process from "process"
 import * as yargs from "yargs"
-import { PlatformTools } from "../platform/PlatformTools"
+import { PlatformTools } from "@/platform/PlatformTools"
 import path from "path"
 import { CommandUtils } from "./CommandUtils"
 

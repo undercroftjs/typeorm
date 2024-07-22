@@ -1,13 +1,13 @@
 import { QueryBuilder } from "./QueryBuilder"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { EntityTarget } from "../common/EntityTarget"
-import { DataSource } from "../data-source/DataSource"
-import { QueryRunner } from "../query-runner/QueryRunner"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { EntityTarget } from "@/common/EntityTarget"
+import { DataSource } from "@/data-source/DataSource"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 import { WhereExpressionBuilder } from "./WhereExpressionBuilder"
 import { Brackets } from "./Brackets"
 import { DeleteResult } from "./result/DeleteResult"
-import { ReturningStatementNotSupportedError } from "../error/ReturningStatementNotSupportedError"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { ReturningStatementNotSupportedError } from "@/error/ReturningStatementNotSupportedError"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Allows to build complex sql queries in a fashion way and execute those queries.

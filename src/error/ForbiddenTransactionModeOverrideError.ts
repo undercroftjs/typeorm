@@ -1,4 +1,4 @@
-import { Migration } from "../migration/Migration"
+import { Migration } from "@/migration/Migration"
 import { TypeORMError } from "./TypeORMError"
 
 /**

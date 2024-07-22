@@ -1,10 +1,10 @@
 import * as fs from "fs"
 import * as path from "path"
 import mkdirp from "mkdirp"
-import { TypeORMError } from "../error"
-import { DataSource } from "../data-source"
-import { InstanceChecker } from "../util/InstanceChecker"
-import { importOrRequireFile } from "../util/ImportUtils"
+import { TypeORMError } from "@/error"
+import { DataSource } from "@/data-source"
+import { InstanceChecker } from "@/util/InstanceChecker"
+import { importOrRequireFile } from "@/util/ImportUtils"
 
 /**
  * Command line utils functions.

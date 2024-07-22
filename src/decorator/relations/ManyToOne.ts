@@ -1,8 +1,8 @@
-import { getMetadataArgsStorage } from "../../globals"
-import { RelationMetadataArgs } from "../../metadata-args/RelationMetadataArgs"
-import { ObjectType } from "../../common/ObjectType"
-import { RelationOptions } from "../options/RelationOptions"
-import { ObjectUtils } from "../../util/ObjectUtils"
+import { getMetadataArgsStorage } from "@/globals"
+import { RelationMetadataArgs } from "@/metadata-args/RelationMetadataArgs"
+import { ObjectType } from "@/common/ObjectType"
+import { RelationOptions } from "@/decorator/options/RelationOptions"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 /**
  * A many-to-one relation allows creating the type of relation where Entity1 can have a single instance of Entity2, but

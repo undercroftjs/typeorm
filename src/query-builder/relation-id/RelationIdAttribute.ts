@@ -1,10 +1,10 @@
-import { RelationMetadata } from "../../metadata/RelationMetadata"
-import { QueryBuilderUtils } from "../QueryBuilderUtils"
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { QueryExpressionMap } from "../QueryExpressionMap"
-import { SelectQueryBuilder } from "../SelectQueryBuilder"
-import { ObjectUtils } from "../../util/ObjectUtils"
-import { TypeORMError } from "../../error/TypeORMError"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { TypeORMError } from "@/error/TypeORMError"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
+import { QueryBuilderUtils } from "@/query-builder/QueryBuilderUtils"
+import { QueryExpressionMap } from "@/query-builder/QueryExpressionMap"
 
 /**
  * Stores all join relation id attributes which will be used to build a JOIN query.

@@ -1,8 +1,7 @@
-import { getMetadataArgsStorage } from "../../globals"
-import { RelationMetadataArgs } from "../../metadata-args/RelationMetadataArgs"
-import { ObjectType } from "../../common/ObjectType"
-import { RelationOptions } from "../options/RelationOptions"
-
+import { getMetadataArgsStorage } from "@/globals"
+import { RelationMetadataArgs } from "@/metadata-args/RelationMetadataArgs"
+import { ObjectType } from "@/common/ObjectType"
+import { RelationOptions } from "@/decorator/options/RelationOptions"
 /**
  * A one-to-many relation allows creating the type of relation where Entity1 can have multiple instances of Entity2,
  * but Entity2 has only one Entity1. Entity2 is the owner of the relationship, and stores the id of Entity1 on its

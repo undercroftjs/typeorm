@@ -1,7 +1,8 @@
 /**
  * Describes all entity view's options.
  */
-import { DataSource, SelectQueryBuilder } from "../.."
+import { DataSource } from "@/data-source"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
 
 export interface ViewEntityOptions {
     /**

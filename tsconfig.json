@@ -19,13 +19,13 @@
         "strictFunctionTypes": false,
         "strictPropertyInitialization": false,
         "stripInternal": true,
-        "useUnknownInCatchVariables": false
+        "useUnknownInCatchVariables": false,
+        "paths": {
+          "@/*": ["./src/*"]
+        }
     },
     "include": [
-      "sample",
       "src",
-      "test",
-      "*.ts"
     ],
     "exclude": [
         "build",

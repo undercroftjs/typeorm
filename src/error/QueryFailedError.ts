@@ -1,4 +1,4 @@
-import { ObjectUtils } from "../util/ObjectUtils"
+import { ObjectUtils } from "@/util/ObjectUtils"
 import { TypeORMError } from "./TypeORMError"
 
 /**

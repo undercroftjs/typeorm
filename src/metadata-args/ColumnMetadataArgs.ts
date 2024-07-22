@@ -1,4 +1,4 @@
-import { ColumnOptions } from "../decorator/options/ColumnOptions"
+import { ColumnOptions } from "@/decorator/options/ColumnOptions"
 import { ColumnMode } from "./types/ColumnMode"
 
 /**

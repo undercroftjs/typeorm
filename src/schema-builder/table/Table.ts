@@ -1,13 +1,13 @@
 import { TableColumn } from "./TableColumn"
 import { TableIndex } from "./TableIndex"
 import { TableForeignKey } from "./TableForeignKey"
-import { Driver } from "../../driver/Driver"
-import { TableOptions } from "../options/TableOptions"
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { TableUtils } from "../util/TableUtils"
+import { Driver } from "@/driver/Driver"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
 import { TableUnique } from "./TableUnique"
 import { TableCheck } from "./TableCheck"
 import { TableExclusion } from "./TableExclusion"
+import { TableOptions } from "@/schema-builder/options/TableOptions"
+import { TableUtils } from "@/schema-builder/util/TableUtils"
 
 /**
  * Table in the database represented in this class.

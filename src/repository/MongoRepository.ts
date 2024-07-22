@@ -1,12 +1,12 @@
-import { ObjectLiteral } from "../common/ObjectLiteral"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
 import { Repository } from "./Repository"
-import { MongoFindManyOptions } from "../find-options/mongodb/MongoFindManyOptions"
-import { MongoEntityManager } from "../entity-manager/MongoEntityManager"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { SelectQueryBuilder } from "../query-builder/SelectQueryBuilder"
-import { TypeORMError } from "../error/TypeORMError"
-import { MongoFindOneOptions } from "../find-options/mongodb/MongoFindOneOptions"
-import { FindOneOptions } from "../find-options/FindOneOptions"
+import { MongoFindManyOptions } from "@/find-options/mongodb/MongoFindManyOptions"
+import { MongoEntityManager } from "@/entity-manager/MongoEntityManager"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
+import { TypeORMError } from "@/error/TypeORMError"
+import { MongoFindOneOptions } from "@/find-options/mongodb/MongoFindOneOptions"
+import { FindOneOptions } from "@/find-options/FindOneOptions"
 
 import {
     CreateIndexesOptions,
@@ -44,8 +44,8 @@ import {
     UpdateOptions,
     UpdateResult,
     CountDocumentsOptions,
-} from "../driver/mongodb/typings"
-import { FindManyOptions } from "../find-options/FindManyOptions"
+} from "@/driver/mongodb/typings"
+import { FindManyOptions } from "@/find-options/FindManyOptions"
 
 /**
  * Repository used to manage mongodb documents of a single entity type.

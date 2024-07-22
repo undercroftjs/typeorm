@@ -15,7 +15,7 @@ import { DiscriminatorValueMetadataArgs } from "./DiscriminatorValueMetadataArgs
 import { EntityRepositoryMetadataArgs } from "./EntityRepositoryMetadataArgs"
 import { TransactionEntityMetadataArgs } from "./TransactionEntityMetadataArgs"
 import { TransactionRepositoryMetadataArgs } from "./TransactionRepositoryMetadataArgs"
-import { MetadataUtils } from "../metadata-builder/MetadataUtils"
+import { MetadataUtils } from "@/metadata-builder/MetadataUtils"
 import { GeneratedMetadataArgs } from "./GeneratedMetadataArgs"
 import { TreeMetadataArgs } from "./TreeMetadataArgs"
 import { UniqueMetadataArgs } from "./UniqueMetadataArgs"

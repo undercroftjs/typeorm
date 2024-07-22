@@ -1,10 +1,10 @@
-import { Subject } from "../Subject"
-import { QueryRunner } from "../../query-runner/QueryRunner"
-import { OrmUtils } from "../../util/OrmUtils"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { ColumnMetadata } from "../../metadata/ColumnMetadata"
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { Brackets } from "../../query-builder/Brackets"
+import { Subject } from "@/persistence/Subject"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { OrmUtils } from "@/util/OrmUtils"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { Brackets } from "@/query-builder/Brackets"
 
 /**
  * Executes subject operations for materialized-path tree entities.

@@ -1,7 +1,7 @@
-import { EntityTarget } from "../common/EntityTarget"
+import { EntityTarget } from "@/common/EntityTarget"
 import { TypeORMError } from "./TypeORMError"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Thrown when repository for the given class is not found.

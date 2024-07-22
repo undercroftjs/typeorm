@@ -1,8 +1,8 @@
 import { RedisQueryResultCache } from "./RedisQueryResultCache"
 import { DbQueryResultCache } from "./DbQueryResultCache"
 import { QueryResultCache } from "./QueryResultCache"
-import { DataSource } from "../data-source/DataSource"
-import { TypeORMError } from "../error/TypeORMError"
+import { DataSource } from "@/data-source/DataSource"
+import { TypeORMError } from "@/error/TypeORMError"
 
 /**
  * Caches query result into Redis database.

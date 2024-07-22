@@ -1,14 +1,14 @@
 import { ColumnMetadata } from "./ColumnMetadata"
 import { RelationMetadata } from "./RelationMetadata"
 import { EntityMetadata } from "./EntityMetadata"
-import { EmbeddedMetadataArgs } from "../metadata-args/EmbeddedMetadataArgs"
+import { EmbeddedMetadataArgs } from "@/metadata-args/EmbeddedMetadataArgs"
 import { RelationIdMetadata } from "./RelationIdMetadata"
 import { RelationCountMetadata } from "./RelationCountMetadata"
-import { DataSource } from "../data-source/DataSource"
+import { DataSource } from "@/data-source/DataSource"
 import { EntityListenerMetadata } from "./EntityListenerMetadata"
 import { IndexMetadata } from "./IndexMetadata"
 import { UniqueMetadata } from "./UniqueMetadata"
-import { TypeORMError } from "../error"
+import { TypeORMError } from "@/error"
 
 /**
  * Contains all information about entity's embedded property.

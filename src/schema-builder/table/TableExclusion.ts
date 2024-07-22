@@ -1,5 +1,5 @@
-import { TableExclusionOptions } from "../options/TableExclusionOptions"
-import { ExclusionMetadata } from "../../metadata/ExclusionMetadata"
+import { ExclusionMetadata } from "@/metadata/ExclusionMetadata"
+import { TableExclusionOptions } from "@/schema-builder/options/TableExclusionOptions"
 
 /**
  * Database's table exclusion constraint stored in this class.

@@ -1,11 +1,11 @@
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { UniqueMetadata } from "../metadata/UniqueMetadata"
-import { ForeignKeyMetadata } from "../metadata/ForeignKeyMetadata"
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { JoinColumnMetadataArgs } from "../metadata-args/JoinColumnMetadataArgs"
-import { DataSource } from "../data-source/DataSource"
-import { TypeORMError } from "../error"
-import { DriverUtils } from "../driver/DriverUtils"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { UniqueMetadata } from "@/metadata/UniqueMetadata"
+import { ForeignKeyMetadata } from "@/metadata/ForeignKeyMetadata"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { JoinColumnMetadataArgs } from "@/metadata-args/JoinColumnMetadataArgs"
+import { DataSource } from "@/data-source/DataSource"
+import { TypeORMError } from "@/error"
+import { DriverUtils } from "@/driver/DriverUtils"
 
 /**
  * Builds join column for the many-to-one and one-to-one owner relations.

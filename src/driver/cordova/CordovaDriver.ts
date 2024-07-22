@@ -1,10 +1,10 @@
-import { AbstractSqliteDriver } from "../sqlite-abstract/AbstractSqliteDriver"
 import { CordovaConnectionOptions } from "./CordovaConnectionOptions"
 import { CordovaQueryRunner } from "./CordovaQueryRunner"
-import { QueryRunner } from "../../query-runner/QueryRunner"
-import { DataSource } from "../../data-source/DataSource"
-import { DriverPackageNotInstalledError } from "../../error/DriverPackageNotInstalledError"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { DataSource } from "@/data-source/DataSource"
+import { DriverPackageNotInstalledError } from "@/error/DriverPackageNotInstalledError"
+import { AbstractSqliteDriver } from "@/driver/sqlite-abstract/AbstractSqliteDriver"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 // needed for typescript compiler
 interface Window {

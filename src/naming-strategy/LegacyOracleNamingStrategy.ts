@@ -1,7 +1,7 @@
 import { NamingStrategyInterface } from "./NamingStrategyInterface"
-import { RandomGenerator } from "../util/RandomGenerator"
+import { RandomGenerator } from "@/util/RandomGenerator"
 import { DefaultNamingStrategy } from "./DefaultNamingStrategy"
-import { TypeORMError } from "../error"
+import { TypeORMError } from "@/error"
 
 /**
  * Shorten strategy

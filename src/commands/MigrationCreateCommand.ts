@@ -1,8 +1,8 @@
 import { CommandUtils } from "./CommandUtils"
-import { camelCase } from "../util/StringUtils"
+import { camelCase } from "@/util/StringUtils"
 import * as yargs from "yargs"
 import chalk from "chalk"
-import { PlatformTools } from "../platform/PlatformTools"
+import { PlatformTools } from "@/platform/PlatformTools"
 import path from "path"
 
 /**

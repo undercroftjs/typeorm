@@ -1,18 +1,18 @@
 import { EntityManager } from "./EntityManager"
-import { EntityTarget } from "../common/EntityTarget"
+import { EntityTarget } from "@/common/EntityTarget"
 
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { MongoQueryRunner } from "../driver/mongodb/MongoQueryRunner"
-import { MongoDriver } from "../driver/mongodb/MongoDriver"
-import { DocumentToEntityTransformer } from "../query-builder/transformer/DocumentToEntityTransformer"
-import { FindManyOptions } from "../find-options/FindManyOptions"
-import { FindOptionsUtils } from "../find-options/FindOptionsUtils"
-import { PlatformTools } from "../platform/PlatformTools"
-import { QueryDeepPartialEntity } from "../query-builder/QueryPartialEntity"
-import { InsertResult } from "../query-builder/result/InsertResult"
-import { UpdateResult } from "../query-builder/result/UpdateResult"
-import { DeleteResult } from "../query-builder/result/DeleteResult"
-import { EntityMetadata } from "../metadata/EntityMetadata"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { MongoQueryRunner } from "@/driver/mongodb/MongoQueryRunner"
+import { MongoDriver } from "@/driver/mongodb/MongoDriver"
+import { DocumentToEntityTransformer } from "@/query-builder/transformer/DocumentToEntityTransformer"
+import { FindManyOptions } from "@/find-options/FindManyOptions"
+import { FindOptionsUtils } from "@/find-options/FindOptionsUtils"
+import { PlatformTools } from "@/platform/PlatformTools"
+import { QueryDeepPartialEntity } from "@/query-builder/QueryPartialEntity"
+import { InsertResult } from "@/query-builder/result/InsertResult"
+import { UpdateResult } from "@/query-builder/result/UpdateResult"
+import { DeleteResult } from "@/query-builder/result/DeleteResult"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
 
 import {
     BulkWriteResult,
@@ -55,16 +55,16 @@ import {
     ObjectId,
     FilterOperators,
     CountDocumentsOptions,
-} from "../driver/mongodb/typings"
-import { DataSource } from "../data-source/DataSource"
-import { MongoFindManyOptions } from "../find-options/mongodb/MongoFindManyOptions"
-import { MongoFindOneOptions } from "../find-options/mongodb/MongoFindOneOptions"
+} from "@/driver/mongodb/typings"
+import { DataSource } from "@/data-source/DataSource"
+import { MongoFindManyOptions } from "@/find-options/mongodb/MongoFindManyOptions"
+import { MongoFindOneOptions } from "@/find-options/mongodb/MongoFindOneOptions"
 import {
     FindOptionsSelect,
     FindOptionsSelectByString,
-} from "../find-options/FindOptionsSelect"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
+} from "@/find-options/FindOptionsSelect"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
 
 /**
  * Entity manager supposed to work with any entity, automatically find its repository and call its methods,

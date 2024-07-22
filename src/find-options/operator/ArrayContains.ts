@@ -1,4 +1,4 @@
-import { FindOperator } from "../FindOperator"
+import { FindOperator } from "@/find-options/FindOperator"
 
 /**
  * FindOptions Operator.

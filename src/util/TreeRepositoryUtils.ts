@@ -1,6 +1,6 @@
-import { EntityManager } from "../entity-manager/EntityManager"
-import { EntityMetadata } from "../metadata/EntityMetadata"
-import { FindTreesOptions } from "../repository/FindTreesOptions"
+import { EntityManager } from "@/entity-manager/EntityManager"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { FindTreesOptions } from "@/repository/FindTreesOptions"
 
 /**
  * Provides utilities for manipulating tree structures.

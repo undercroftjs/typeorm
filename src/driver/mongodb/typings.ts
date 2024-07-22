@@ -27,7 +27,7 @@ import type { SrvRecord } from "dns"
 import type { TcpNetConnectOpts } from "net"
 import type { TLSSocket } from "tls"
 import type { TLSSocketOptions } from "tls"
-import { Readable, EventEmitter } from "../../platform/PlatformTools"
+import { Readable, EventEmitter } from "@/platform/PlatformTools"
 
 /** @public */
 export declare abstract class AbstractCursor<

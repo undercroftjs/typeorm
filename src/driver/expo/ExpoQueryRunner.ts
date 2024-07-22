@@ -1,11 +1,11 @@
-import { QueryRunnerAlreadyReleasedError } from "../../error/QueryRunnerAlreadyReleasedError"
-import { QueryFailedError } from "../../error/QueryFailedError"
-import { AbstractSqliteQueryRunner } from "../sqlite-abstract/AbstractSqliteQueryRunner"
-import { TransactionNotStartedError } from "../../error/TransactionNotStartedError"
+import { QueryRunnerAlreadyReleasedError } from "@/error/QueryRunnerAlreadyReleasedError"
+import { QueryFailedError } from "@/error/QueryFailedError"
+import { TransactionNotStartedError } from "@/error/TransactionNotStartedError"
 import { ExpoDriver } from "./ExpoDriver"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { QueryResult } from "../../query-runner/QueryResult"
-import { BroadcasterResult } from "../../subscriber/BroadcasterResult"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { QueryResult } from "@/query-runner/QueryResult"
+import { BroadcasterResult } from "@/subscriber/BroadcasterResult"
+import { AbstractSqliteQueryRunner } from "@/driver/sqlite-abstract/AbstractSqliteQueryRunner"
 
 // Needed to satisfy the Typescript compiler
 interface IResultSet {

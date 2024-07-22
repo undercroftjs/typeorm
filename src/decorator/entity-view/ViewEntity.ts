@@ -1,7 +1,7 @@
-import { getMetadataArgsStorage } from "../../globals"
-import { TableMetadataArgs } from "../../metadata-args/TableMetadataArgs"
-import { ViewEntityOptions } from "../options/ViewEntityOptions"
-import { ObjectUtils } from "../../util/ObjectUtils"
+import { getMetadataArgsStorage } from "@/globals"
+import { TableMetadataArgs } from "@/metadata-args/TableMetadataArgs"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { ViewEntityOptions } from "@/decorator/options/ViewEntityOptions"
 
 /**
  * This decorator is used to mark classes that will be an entity view.

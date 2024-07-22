@@ -1,10 +1,10 @@
-import { QueryRunnerAlreadyReleasedError } from "../../error/QueryRunnerAlreadyReleasedError"
-import { AbstractSqliteQueryRunner } from "../sqlite-abstract/AbstractSqliteQueryRunner"
-import { SqljsDriver } from "./SqljsDriver"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { QueryFailedError } from "../../error/QueryFailedError"
-import { QueryResult } from "../../query-runner/QueryResult"
-import { BroadcasterResult } from "../../subscriber/BroadcasterResult"
+import { QueryRunnerAlreadyReleasedError } from "@/error/QueryRunnerAlreadyReleasedError"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { QueryFailedError } from "@/error/QueryFailedError"
+import { QueryResult } from "@/query-runner/QueryResult"
+import { BroadcasterResult } from "@/subscriber/BroadcasterResult"
+import { AbstractSqliteQueryRunner } from "@/driver/sqlite-abstract/AbstractSqliteQueryRunner"
+import { SqljsDriver } from "@/driver/sqljs/SqljsDriver"
 
 /**
  * Runs queries on a single sqlite database connection.

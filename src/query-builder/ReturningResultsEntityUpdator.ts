@@ -1,10 +1,10 @@
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { QueryRunner } from "../query-runner/QueryRunner"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 import { QueryExpressionMap } from "./QueryExpressionMap"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
 import { UpdateResult } from "./result/UpdateResult"
 import { InsertResult } from "./result/InsertResult"
-import { TypeORMError } from "../error"
+import { TypeORMError } from "@/error"
 
 /**
  * Updates entity with returning results in the entity insert and update operations.

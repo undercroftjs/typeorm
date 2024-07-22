@@ -1,8 +1,8 @@
-import { RelationCountMetadataArgs } from "../metadata-args/RelationCountMetadataArgs"
+import { RelationCountMetadataArgs } from "@/metadata-args/RelationCountMetadataArgs"
 import { EntityMetadata } from "./EntityMetadata"
 import { RelationMetadata } from "./RelationMetadata"
-import { SelectQueryBuilder } from "../query-builder/SelectQueryBuilder"
-import { TypeORMError } from "../error"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
+import { TypeORMError } from "@/error"
 
 /**
  * Contains all information about entity's relation count.

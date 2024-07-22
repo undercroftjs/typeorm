@@ -1,17 +1,17 @@
 import { RelationType } from "./types/RelationTypes"
 import { EntityMetadata } from "./EntityMetadata"
 import { ForeignKeyMetadata } from "./ForeignKeyMetadata"
-import { ObjectLiteral } from "../common/ObjectLiteral"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
 import { ColumnMetadata } from "./ColumnMetadata"
 import { EmbeddedMetadata } from "./EmbeddedMetadata"
-import { RelationMetadataArgs } from "../metadata-args/RelationMetadataArgs"
+import { RelationMetadataArgs } from "@/metadata-args/RelationMetadataArgs"
 import { DeferrableType } from "./types/DeferrableType"
 import { OnUpdateType } from "./types/OnUpdateType"
 import { OnDeleteType } from "./types/OnDeleteType"
 import { PropertyTypeFactory } from "./types/PropertyTypeInFunction"
-import { TypeORMError } from "../error"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { TypeORMError } from "@/error"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Contains all information about some entity's relation.

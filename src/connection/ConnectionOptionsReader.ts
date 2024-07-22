@@ -1,11 +1,11 @@
 import appRootPath from "app-root-path"
 import path from "path"
-import { DataSourceOptions } from "../data-source/DataSourceOptions"
-import { PlatformTools } from "../platform/PlatformTools"
+import { DataSourceOptions } from "@/data-source/DataSourceOptions"
+import { PlatformTools } from "@/platform/PlatformTools"
 import { ConnectionOptionsEnvReader } from "./options-reader/ConnectionOptionsEnvReader"
-import { TypeORMError } from "../error"
-import { isAbsolute } from "../util/PathUtils"
-import { importOrRequireFile } from "../util/ImportUtils"
+import { TypeORMError } from "@/error"
+import { isAbsolute } from "@/util/PathUtils"
+import { importOrRequireFile } from "@/util/ImportUtils"
 
 /**
  * Reads connection options from the ormconfig.

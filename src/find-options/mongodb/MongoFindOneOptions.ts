@@ -1,5 +1,5 @@
-import { FindOneOptions } from "../FindOneOptions"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { FindOneOptions } from "@/find-options/FindOneOptions"
 
 /**
  * Defines a special criteria to find specific entity.

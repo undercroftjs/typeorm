@@ -1,7 +1,7 @@
 import * as yargs from "yargs"
 import chalk from "chalk"
 import path from "path"
-import { PlatformTools } from "../platform/PlatformTools"
+import { PlatformTools } from "@/platform/PlatformTools"
 import { CommandUtils } from "./CommandUtils"
 
 /**

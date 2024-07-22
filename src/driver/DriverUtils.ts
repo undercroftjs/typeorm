@@ -1,6 +1,6 @@
 import { Driver } from "./Driver"
-import { hash, shorten } from "../util/StringUtils"
-import { VersionUtils } from "../util/VersionUtils"
+import { hash, shorten } from "@/util/StringUtils"
+import { VersionUtils } from "@/util/VersionUtils"
 
 /**
  * Common driver utility functions.

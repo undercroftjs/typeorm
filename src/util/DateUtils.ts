@@ -1,4 +1,4 @@
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
 import dayjs from "dayjs"
 
 /**

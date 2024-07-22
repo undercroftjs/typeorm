@@ -1,7 +1,7 @@
-import { DataSource } from "../data-source/DataSource"
-import { ConnectionNotFoundError } from "../error/ConnectionNotFoundError"
-import { DataSourceOptions } from "../data-source/DataSourceOptions"
-import { AlreadyHasActiveConnectionError } from "../error/AlreadyHasActiveConnectionError"
+import { DataSource } from "@/data-source/DataSource"
+import { ConnectionNotFoundError } from "@/error/ConnectionNotFoundError"
+import { DataSourceOptions } from "@/data-source/DataSourceOptions"
+import { AlreadyHasActiveConnectionError } from "@/error/AlreadyHasActiveConnectionError"
 
 /**
  * ConnectionManager is used to store and manage multiple orm connections.

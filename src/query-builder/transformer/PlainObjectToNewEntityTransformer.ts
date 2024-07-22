@@ -1,6 +1,6 @@
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { ObjectUtils } from "../../util/ObjectUtils"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 /**
  * Transforms plain old javascript object

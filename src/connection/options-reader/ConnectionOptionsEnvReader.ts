@@ -1,6 +1,6 @@
-import { DataSourceOptions } from "../../data-source/DataSourceOptions"
-import { PlatformTools } from "../../platform/PlatformTools"
-import { OrmUtils } from "../../util/OrmUtils"
+import { DataSourceOptions } from "@/data-source/DataSourceOptions"
+import { PlatformTools } from "@/platform/PlatformTools"
+import { OrmUtils } from "@/util/OrmUtils"
 
 /**
  * Reads connection options from environment variables.

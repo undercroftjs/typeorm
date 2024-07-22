@@ -1,8 +1,8 @@
-import { DataSource } from "../data-source/DataSource"
+import { DataSource } from "@/data-source/DataSource"
 import { SchemaBuilder } from "./SchemaBuilder"
-import { MongoQueryRunner } from "../driver/mongodb/MongoQueryRunner"
-import { SqlInMemory } from "../driver/SqlInMemory"
-import { CreateIndexesOptions } from "../driver/mongodb/typings"
+import { MongoQueryRunner } from "@/driver/mongodb/MongoQueryRunner"
+import { SqlInMemory } from "@/driver/SqlInMemory"
+import { CreateIndexesOptions } from "@/driver/mongodb/typings"
 
 /**
  * Creates complete tables schemas in the database based on the entity metadatas.

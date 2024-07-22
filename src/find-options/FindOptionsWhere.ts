@@ -1,5 +1,5 @@
 import { FindOperator } from "./FindOperator"
-import { ObjectId } from "../driver/mongodb/typings"
+import { ObjectId } from "@/driver/mongodb/typings"
 import { EqualOperator } from "./EqualOperator"
 
 /**

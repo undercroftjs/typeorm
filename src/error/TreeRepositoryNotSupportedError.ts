@@ -1,4 +1,4 @@
-import { Driver } from "../driver/Driver"
+import { Driver } from "@/driver/Driver"
 import { TypeORMError } from "./TypeORMError"
 
 export class TreeRepositoryNotSupportedError extends TypeORMError {

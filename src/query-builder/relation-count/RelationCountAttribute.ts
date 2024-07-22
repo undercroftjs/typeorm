@@ -1,10 +1,10 @@
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { QueryBuilderUtils } from "../QueryBuilderUtils"
-import { RelationMetadata } from "../../metadata/RelationMetadata"
-import { QueryExpressionMap } from "../QueryExpressionMap"
-import { SelectQueryBuilder } from "../SelectQueryBuilder"
-import { ObjectUtils } from "../../util/ObjectUtils"
-import { TypeORMError } from "../../error/TypeORMError"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { TypeORMError } from "@/error/TypeORMError"
+import { QueryBuilderUtils } from "@/query-builder/QueryBuilderUtils"
+import { QueryExpressionMap } from "@/query-builder/QueryExpressionMap"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
 
 export class RelationCountAttribute {
     /**

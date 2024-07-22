@@ -1,7 +1,7 @@
-import { EntityTarget } from "../common/EntityTarget"
+import { EntityTarget } from "@/common/EntityTarget"
 import { TypeORMError } from "./TypeORMError"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Thrown when no result could be found in methods which are not allowed to return undefined or an empty set.

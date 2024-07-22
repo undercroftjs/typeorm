@@ -1,12 +1,12 @@
-import { EntityMetadata } from "../metadata/EntityMetadata"
-import { DataSource } from "../data-source/DataSource"
-import { RelationMetadata } from "../metadata/RelationMetadata"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { DataSource } from "@/data-source/DataSource"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
 import { QueryBuilderUtils } from "./QueryBuilderUtils"
 import { QueryExpressionMap } from "./QueryExpressionMap"
 import { Alias } from "./Alias"
-import { ObjectUtils } from "../util/ObjectUtils"
-import { TypeORMError } from "../error"
-import { DriverUtils } from "../driver/DriverUtils"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { TypeORMError } from "@/error"
+import { DriverUtils } from "@/driver/DriverUtils"
 
 /**
  * Stores all join attributes which will be used to build a JOIN query.

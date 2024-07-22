@@ -1,4 +1,5 @@
-import { DataSource, SelectQueryBuilder } from "../.."
+import { DataSource } from "@/data-source"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
 
 /**
  * View options.

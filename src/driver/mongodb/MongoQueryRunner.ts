@@ -1,18 +1,16 @@
-import { QueryRunner } from "../../query-runner/QueryRunner"
-import { TableColumn } from "../../schema-builder/table/TableColumn"
-import { Table } from "../../schema-builder/table/Table"
-import { TableForeignKey } from "../../schema-builder/table/TableForeignKey"
-import { TableIndex } from "../../schema-builder/table/TableIndex"
-import { View } from "../../schema-builder/view/View"
-// import {Connection} from "../../connection/Connection";
-import { ReadStream } from "../../platform/PlatformTools"
-import { MongoEntityManager } from "../../entity-manager/MongoEntityManager"
-import { SqlInMemory } from "../SqlInMemory"
-import { TableUnique } from "../../schema-builder/table/TableUnique"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { TableCheck } from "../../schema-builder/table/TableCheck"
-import { TableExclusion } from "../../schema-builder/table/TableExclusion"
-import { TypeORMError } from "../../error"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { TableColumn } from "@/schema-builder/table/TableColumn"
+import { Table } from "@/schema-builder/table/Table"
+import { TableForeignKey } from "@/schema-builder/table/TableForeignKey"
+import { TableIndex } from "@/schema-builder/table/TableIndex"
+import { View } from "@/schema-builder/view/View"
+import { ReadStream } from "@/platform/PlatformTools"
+import { MongoEntityManager } from "@/entity-manager/MongoEntityManager"
+import { TableUnique } from "@/schema-builder/table/TableUnique"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { TableCheck } from "@/schema-builder/table/TableCheck"
+import { TableExclusion } from "@/schema-builder/table/TableExclusion"
+import { TypeORMError } from "@/error"
 
 import {
     BulkWriteResult,
@@ -54,9 +52,10 @@ import {
     UnorderedBulkOperation,
     OrderedBulkOperation,
     IndexInformationOptions,
-} from "../../driver/mongodb/typings"
-import { DataSource } from "../../data-source/DataSource"
-import { ReplicationMode } from "../types/ReplicationMode"
+} from "@/driver/mongodb/typings"
+import { DataSource } from "@/data-source/DataSource"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
+import { SqlInMemory } from "@/driver/SqlInMemory"
 
 /**
  * Runs queries on a single MongoDB connection.

@@ -1,6 +1,6 @@
-import { ForeignKeyMetadata } from "../../metadata/ForeignKeyMetadata"
-import { TableForeignKeyOptions } from "../options/TableForeignKeyOptions"
-import { Driver } from "../../driver/Driver"
+import { ForeignKeyMetadata } from "@/metadata/ForeignKeyMetadata"
+import { Driver } from "@/driver/Driver"
+import { TableForeignKeyOptions } from "@/schema-builder/options/TableForeignKeyOptions"
 
 /**
  * Foreign key from the database stored in this class.

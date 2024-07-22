@@ -1,11 +1,11 @@
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { QueryRunnerAlreadyReleasedError } from "../../error/QueryRunnerAlreadyReleasedError"
-import { QueryFailedError } from "../../error/QueryFailedError"
-import { AbstractSqliteQueryRunner } from "../sqlite-abstract/AbstractSqliteQueryRunner"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunnerAlreadyReleasedError } from "@/error/QueryRunnerAlreadyReleasedError"
+import { QueryFailedError } from "@/error/QueryFailedError"
 import { ReactNativeDriver } from "./ReactNativeDriver"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { QueryResult } from "../../query-runner/QueryResult"
-import { BroadcasterResult } from "../../subscriber/BroadcasterResult"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { QueryResult } from "@/query-runner/QueryResult"
+import { BroadcasterResult } from "@/subscriber/BroadcasterResult"
+import { AbstractSqliteQueryRunner } from "@/driver/sqlite-abstract/AbstractSqliteQueryRunner"
 
 /**
  * Runs queries on a single sqlite database connection.

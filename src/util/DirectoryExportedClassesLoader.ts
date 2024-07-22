@@ -1,6 +1,6 @@
 import * as glob from "glob"
-import { PlatformTools } from "../platform/PlatformTools"
-import { Logger } from "../logger/Logger"
+import { PlatformTools } from "@/platform/PlatformTools"
+import { Logger } from "@/logger/Logger"
 import { importOrRequireFile } from "./ImportUtils"
 import { ObjectUtils } from "./ObjectUtils"
 import { InstanceChecker } from "./InstanceChecker"

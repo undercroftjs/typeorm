@@ -1,11 +1,11 @@
 import { EntitySubscriberInterface } from "./EntitySubscriberInterface"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { EntityMetadata } from "../metadata/EntityMetadata"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
 import { BroadcasterResult } from "./BroadcasterResult"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { ObjectUtils } from "../util/ObjectUtils"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 interface BroadcasterEvents {
     BeforeQuery: () => void

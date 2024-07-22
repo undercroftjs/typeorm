@@ -3,8 +3,8 @@ import * as path from "path"
 import * as yargs from "yargs"
 import chalk from "chalk"
 import { exec } from "child_process"
-import { TypeORMError } from "../error"
-import { PlatformTools } from "../platform/PlatformTools"
+import { TypeORMError } from "@/error"
+import { PlatformTools } from "@/platform/PlatformTools"
 
 /**
  * Generates a new project with TypeORM.
@@ -377,11 +377,11 @@ export const Routes = [{
      * Gets contents of the user controller file (used when express is enabled).
      */
     protected static getControllerTemplate(isEsm: boolean): string {
-        return `import { AppDataSource } from "../data-source${
+        return `import { AppDataSource } from "@/data-source${
             isEsm ? ".js" : ""
         }"
 import { NextFunction, Request, Response } from "express"
-import { User } from "../entity/User${isEsm ? ".js" : ""}"
+import { User } from "@/entity/User${isEsm ? ".js" : ""}"
 
 export class UserController {
 

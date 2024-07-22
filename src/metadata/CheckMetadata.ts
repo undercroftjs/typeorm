@@ -1,6 +1,6 @@
 import { EntityMetadata } from "./EntityMetadata"
-import { NamingStrategyInterface } from "../naming-strategy/NamingStrategyInterface"
-import { CheckMetadataArgs } from "../metadata-args/CheckMetadataArgs"
+import { NamingStrategyInterface } from "@/naming-strategy/NamingStrategyInterface"
+import { CheckMetadataArgs } from "@/metadata-args/CheckMetadataArgs"
 
 /**
  * Check metadata contains all information about table's check constraints.

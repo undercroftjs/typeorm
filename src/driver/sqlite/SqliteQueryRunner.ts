@@ -1,12 +1,12 @@
-import { QueryRunnerAlreadyReleasedError } from "../../error/QueryRunnerAlreadyReleasedError"
-import { QueryFailedError } from "../../error/QueryFailedError"
-import { AbstractSqliteQueryRunner } from "../sqlite-abstract/AbstractSqliteQueryRunner"
+import { QueryRunnerAlreadyReleasedError } from "@/error/QueryRunnerAlreadyReleasedError"
+import { QueryFailedError } from "@/error/QueryFailedError"
 import { SqliteConnectionOptions } from "./SqliteConnectionOptions"
 import { SqliteDriver } from "./SqliteDriver"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { ConnectionIsNotSetError } from "../../error/ConnectionIsNotSetError"
-import { QueryResult } from "../../query-runner/QueryResult"
-import { BroadcasterResult } from "../../subscriber/BroadcasterResult"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { ConnectionIsNotSetError } from "@/error/ConnectionIsNotSetError"
+import { QueryResult } from "@/query-runner/QueryResult"
+import { BroadcasterResult } from "@/subscriber/BroadcasterResult"
+import { AbstractSqliteQueryRunner } from "@/driver/sqlite-abstract/AbstractSqliteQueryRunner"
 
 /**
  * Runs queries on a single sqlite database connection.

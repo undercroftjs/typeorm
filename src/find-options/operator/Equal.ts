@@ -1,5 +1,5 @@
-import { FindOperator } from "../FindOperator"
-import { EqualOperator } from "../EqualOperator"
+import { FindOperator } from "@/find-options/FindOperator"
+import { EqualOperator } from "@/find-options/EqualOperator"
 
 /**
  * Find Options Operator.

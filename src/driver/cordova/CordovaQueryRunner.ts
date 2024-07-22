@@ -1,12 +1,12 @@
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { QueryRunnerAlreadyReleasedError } from "../../error/QueryRunnerAlreadyReleasedError"
-import { QueryFailedError } from "../../error/QueryFailedError"
-import { AbstractSqliteQueryRunner } from "../sqlite-abstract/AbstractSqliteQueryRunner"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunnerAlreadyReleasedError } from "@/error/QueryRunnerAlreadyReleasedError"
+import { QueryFailedError } from "@/error/QueryFailedError"
 import { CordovaDriver } from "./CordovaDriver"
-import { Broadcaster } from "../../subscriber/Broadcaster"
-import { TypeORMError } from "../../error"
-import { QueryResult } from "../../query-runner/QueryResult"
-import { BroadcasterResult } from "../../subscriber/BroadcasterResult"
+import { Broadcaster } from "@/subscriber/Broadcaster"
+import { TypeORMError } from "@/error"
+import { QueryResult } from "@/query-runner/QueryResult"
+import { BroadcasterResult } from "@/subscriber/BroadcasterResult"
+import { AbstractSqliteQueryRunner } from "@/driver/sqlite-abstract/AbstractSqliteQueryRunner"
 
 /**
  * Runs queries on a single sqlite database connection.

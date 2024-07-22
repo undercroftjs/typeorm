@@ -1,8 +1,8 @@
 import { QueryBuilder } from "./QueryBuilder"
-import { ObjectLiteral } from "../common/ObjectLiteral"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
 import { QueryExpressionMap } from "./QueryExpressionMap"
-import { TypeORMError } from "../error"
-import { ObjectUtils } from "../util/ObjectUtils"
+import { TypeORMError } from "@/error"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 /**
  * Allows to work with entity relations and perform specific operations with those relations.

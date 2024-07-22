@@ -1,6 +1,6 @@
-import { BaseDataSourceOptions } from "../../data-source/BaseDataSourceOptions"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { BaseDataSourceOptions } from "@/data-source/BaseDataSourceOptions"
 import { SqlServerConnectionCredentialsOptions } from "./SqlServerConnectionCredentialsOptions"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 /**
  * Microsoft Sql Server specific connection options.

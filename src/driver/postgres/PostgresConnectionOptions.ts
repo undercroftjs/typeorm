@@ -1,6 +1,6 @@
-import { BaseDataSourceOptions } from "../../data-source/BaseDataSourceOptions"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { BaseDataSourceOptions } from "@/data-source/BaseDataSourceOptions"
 import { PostgresConnectionCredentialsOptions } from "./PostgresConnectionCredentialsOptions"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 /**
  * Postgres-specific connection options.

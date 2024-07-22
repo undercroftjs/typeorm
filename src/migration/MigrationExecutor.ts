@@ -1,12 +1,12 @@
-import { Table } from "../schema-builder/table/Table"
-import { DataSource } from "../data-source/DataSource"
+import { Table } from "@/schema-builder/table/Table"
+import { DataSource } from "@/data-source/DataSource"
 import { Migration } from "./Migration"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { MssqlParameter } from "../driver/sqlserver/MssqlParameter"
-import { MongoQueryRunner } from "../driver/mongodb/MongoQueryRunner"
-import { ForbiddenTransactionModeOverrideError, TypeORMError } from "../error"
-import { InstanceChecker } from "../util/InstanceChecker"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { MssqlParameter } from "@/driver/sqlserver/MssqlParameter"
+import { MongoQueryRunner } from "@/driver/mongodb/MongoQueryRunner"
+import { ForbiddenTransactionModeOverrideError, TypeORMError } from "@/error"
+import { InstanceChecker } from "@/util/InstanceChecker"
 
 /**
  * Executes migrations: runs pending and reverts previously executed migrations.

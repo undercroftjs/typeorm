@@ -1,8 +1,8 @@
-import { ColumnMetadata } from "../../metadata/ColumnMetadata"
-import { DataSource } from "../../data-source/DataSource"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { DataSource } from "@/data-source/DataSource"
 import { RelationCountAttribute } from "./RelationCountAttribute"
 import { RelationCountLoadResult } from "./RelationCountLoadResult"
-import { QueryRunner } from "../../query-runner/QueryRunner"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 
 export class RelationCountLoader {
     // -------------------------------------------------------------------------

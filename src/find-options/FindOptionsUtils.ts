@@ -1,13 +1,13 @@
 import { FindManyOptions } from "./FindManyOptions"
 import { FindOneOptions } from "./FindOneOptions"
-import { SelectQueryBuilder } from "../query-builder/SelectQueryBuilder"
-import { FindRelationsNotFoundError } from "../error"
-import { EntityMetadata } from "../metadata/EntityMetadata"
-import { DriverUtils } from "../driver/DriverUtils"
+import { SelectQueryBuilder } from "@/query-builder/SelectQueryBuilder"
+import { FindRelationsNotFoundError } from "@/error"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { DriverUtils } from "@/driver/DriverUtils"
 import { FindTreeOptions } from "./FindTreeOptions"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { EntityPropertyNotFoundError } from "../error"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { EntityPropertyNotFoundError } from "@/error"
 
 /**
  * Utilities to work with FindOptions.

@@ -1,8 +1,8 @@
-import { DataSource } from "../data-source/DataSource"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { FindOptionsUtils } from "../find-options/FindOptionsUtils"
+import { DataSource } from "@/data-source/DataSource"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { FindOptionsUtils } from "@/find-options/FindOptionsUtils"
 import { SelectQueryBuilder } from "./SelectQueryBuilder"
 
 /**

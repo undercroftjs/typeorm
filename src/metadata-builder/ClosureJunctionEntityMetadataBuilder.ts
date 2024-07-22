@@ -1,8 +1,8 @@
-import { EntityMetadata } from "../metadata/EntityMetadata"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { ForeignKeyMetadata } from "../metadata/ForeignKeyMetadata"
-import { DataSource } from "../data-source/DataSource"
-import { IndexMetadata } from "../metadata/IndexMetadata"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { ForeignKeyMetadata } from "@/metadata/ForeignKeyMetadata"
+import { DataSource } from "@/data-source/DataSource"
+import { IndexMetadata } from "@/metadata/IndexMetadata"
 
 /**
  * Creates EntityMetadata for junction tables of the closure entities.

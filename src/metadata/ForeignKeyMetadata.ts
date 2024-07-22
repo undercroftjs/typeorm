@@ -1,6 +1,6 @@
 import { ColumnMetadata } from "./ColumnMetadata"
 import { EntityMetadata } from "./EntityMetadata"
-import { NamingStrategyInterface } from "../naming-strategy/NamingStrategyInterface"
+import { NamingStrategyInterface } from "@/naming-strategy/NamingStrategyInterface"
 import { DeferrableType } from "./types/DeferrableType"
 import { OnDeleteType } from "./types/OnDeleteType"
 import { OnUpdateType } from "./types/OnUpdateType"

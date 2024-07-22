@@ -1,4 +1,4 @@
-import { getMetadataArgsStorage } from "../../globals"
+import { getMetadataArgsStorage } from "@/globals"
 import {
     ColumnType,
     SimpleColumnType,
@@ -6,20 +6,20 @@ import {
     WithLengthColumnType,
     WithPrecisionColumnType,
     WithWidthColumnType,
-} from "../../driver/types/ColumnTypes"
-import { ColumnMetadataArgs } from "../../metadata-args/ColumnMetadataArgs"
-import { ColumnCommonOptions } from "../options/ColumnCommonOptions"
-import { SpatialColumnOptions } from "../options/SpatialColumnOptions"
-import { ColumnWithLengthOptions } from "../options/ColumnWithLengthOptions"
-import { ColumnNumericOptions } from "../options/ColumnNumericOptions"
-import { ColumnEnumOptions } from "../options/ColumnEnumOptions"
-import { ColumnEmbeddedOptions } from "../options/ColumnEmbeddedOptions"
-import { EmbeddedMetadataArgs } from "../../metadata-args/EmbeddedMetadataArgs"
-import { ColumnTypeUndefinedError } from "../../error/ColumnTypeUndefinedError"
-import { ColumnHstoreOptions } from "../options/ColumnHstoreOptions"
-import { ColumnWithWidthOptions } from "../options/ColumnWithWidthOptions"
-import { GeneratedMetadataArgs } from "../../metadata-args/GeneratedMetadataArgs"
-import { ColumnOptions } from "../options/ColumnOptions"
+} from "@/driver/types/ColumnTypes"
+import { ColumnMetadataArgs } from "@/metadata-args/ColumnMetadataArgs"
+import { EmbeddedMetadataArgs } from "@/metadata-args/EmbeddedMetadataArgs"
+import { ColumnTypeUndefinedError } from "@/error/ColumnTypeUndefinedError"
+import { GeneratedMetadataArgs } from "@/metadata-args/GeneratedMetadataArgs"
+import { ColumnOptions } from "@/decorator/options/ColumnOptions"
+import { ColumnCommonOptions } from "@/decorator/options/ColumnCommonOptions"
+import { SpatialColumnOptions } from "@/decorator/options/SpatialColumnOptions"
+import { ColumnWithLengthOptions } from "@/decorator/options/ColumnWithLengthOptions"
+import { ColumnWithWidthOptions } from "@/decorator/options/ColumnWithWidthOptions"
+import { ColumnNumericOptions } from "@/decorator/options/ColumnNumericOptions"
+import { ColumnEnumOptions } from "@/decorator/options/ColumnEnumOptions"
+import { ColumnHstoreOptions } from "@/decorator/options/ColumnHstoreOptions"
+import { ColumnEmbeddedOptions } from "@/decorator/options/ColumnEmbeddedOptions"
 
 /**
  * Column decorator is used to mark a specific class property as a table column. Only properties decorated with this

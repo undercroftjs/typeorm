@@ -1,7 +1,7 @@
-import { getMetadataArgsStorage } from "../globals"
-import { IndexMetadataArgs } from "../metadata-args/IndexMetadataArgs"
+import { getMetadataArgsStorage } from "@/globals"
+import { IndexMetadataArgs } from "@/metadata-args/IndexMetadataArgs"
 import { IndexOptions } from "./options/IndexOptions"
-import { ObjectUtils } from "../util/ObjectUtils"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 /**
  * Creates a database index.

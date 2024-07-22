@@ -1,10 +1,10 @@
-import { getMetadataArgsStorage } from "../../globals"
-import { PrimaryGeneratedColumnNumericOptions } from "../options/PrimaryGeneratedColumnNumericOptions"
-import { PrimaryGeneratedColumnUUIDOptions } from "../options/PrimaryGeneratedColumnUUIDOptions"
-import { GeneratedMetadataArgs } from "../../metadata-args/GeneratedMetadataArgs"
-import { ColumnOptions } from "../options/ColumnOptions"
-import { PrimaryGeneratedColumnIdentityOptions } from "../options/PrimaryGeneratedColumnIdentityOptions"
-import { ObjectUtils } from "../../util/ObjectUtils"
+import { getMetadataArgsStorage } from "@/globals"
+import { GeneratedMetadataArgs } from "@/metadata-args/GeneratedMetadataArgs"
+import { ObjectUtils } from "@/util/ObjectUtils"
+import { PrimaryGeneratedColumnNumericOptions } from "@/decorator/options/PrimaryGeneratedColumnNumericOptions"
+import { PrimaryGeneratedColumnUUIDOptions } from "@/decorator/options/PrimaryGeneratedColumnUUIDOptions"
+import { PrimaryGeneratedColumnIdentityOptions } from "@/decorator/options/PrimaryGeneratedColumnIdentityOptions"
+import { ColumnOptions } from "@/decorator/options/ColumnOptions"
 
 /**
  * Column decorator is used to mark a specific class property as a table column.

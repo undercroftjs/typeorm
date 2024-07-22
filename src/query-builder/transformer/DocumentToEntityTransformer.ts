@@ -1,6 +1,6 @@
-import { EntityMetadata } from "../../metadata/EntityMetadata"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { EmbeddedMetadata } from "../../metadata/EmbeddedMetadata"
+import { EntityMetadata } from "@/metadata/EntityMetadata"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { EmbeddedMetadata } from "@/metadata/EmbeddedMetadata"
 
 /**
  * Transforms raw document into entity object.

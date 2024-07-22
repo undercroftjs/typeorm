@@ -1,11 +1,11 @@
 import { RelationIdAttribute } from "./RelationIdAttribute"
-import { DataSource } from "../../data-source/DataSource"
+import { DataSource } from "@/data-source/DataSource"
 import { RelationIdLoadResult } from "./RelationIdLoadResult"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { QueryRunner } from "../../query-runner/QueryRunner"
-import { DriverUtils } from "../../driver/DriverUtils"
-import { TypeORMError } from "../../error/TypeORMError"
-import { OrmUtils } from "../../util/OrmUtils"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { DriverUtils } from "@/driver/DriverUtils"
+import { TypeORMError } from "@/error/TypeORMError"
+import { OrmUtils } from "@/util/OrmUtils"
 
 export class RelationIdLoader {
     // -------------------------------------------------------------------------

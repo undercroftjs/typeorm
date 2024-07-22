@@ -1,6 +1,6 @@
-import { BaseDataSourceOptions } from "../../data-source/BaseDataSourceOptions"
-import { ReplicationMode } from "../types/ReplicationMode"
+import { BaseDataSourceOptions } from "@/data-source/BaseDataSourceOptions"
 import { MysqlConnectionCredentialsOptions } from "./MysqlConnectionCredentialsOptions"
+import { ReplicationMode } from "@/driver/types/ReplicationMode"
 
 /**
  * MySQL specific connection options.

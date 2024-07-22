@@ -1,10 +1,10 @@
-import { RelationMetadata } from "../metadata/RelationMetadata"
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { DataSource } from "../data-source/DataSource"
-import { ObjectLiteral } from "../common/ObjectLiteral"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { DataSource } from "@/data-source/DataSource"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
 import { SelectQueryBuilder } from "./SelectQueryBuilder"
-import { DriverUtils } from "../driver/DriverUtils"
-import { QueryRunner } from "../query-runner/QueryRunner"
+import { DriverUtils } from "@/driver/DriverUtils"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 
 /**
  * Loads relation ids for the given entities.

@@ -1,5 +1,5 @@
-import { ColumnMetadata } from "../metadata/ColumnMetadata"
-import { RelationMetadata } from "../metadata/RelationMetadata"
+import { ColumnMetadata } from "@/metadata/ColumnMetadata"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
 import { Subject } from "./Subject"
 
 /**

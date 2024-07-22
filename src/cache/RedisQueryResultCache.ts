@@ -1,9 +1,9 @@
 import { QueryResultCache } from "./QueryResultCache"
 import { QueryResultCacheOptions } from "./QueryResultCacheOptions"
-import { PlatformTools } from "../platform/PlatformTools"
-import { DataSource } from "../data-source/DataSource"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { TypeORMError } from "../error/TypeORMError"
+import { PlatformTools } from "@/platform/PlatformTools"
+import { DataSource } from "@/data-source/DataSource"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { TypeORMError } from "@/error/TypeORMError"
 
 /**
  * Caches query result into Redis database.

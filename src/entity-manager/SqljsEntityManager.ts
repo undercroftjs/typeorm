@@ -1,7 +1,7 @@
-import { DataSource } from "../data-source/DataSource"
-import { QueryRunner } from "../query-runner/QueryRunner"
+import { DataSource } from "@/data-source/DataSource"
+import { QueryRunner } from "@/query-runner/QueryRunner"
 import { EntityManager } from "./EntityManager"
-import { SqljsDriver } from "../driver/sqljs/SqljsDriver"
+import { SqljsDriver } from "@/driver/sqljs/SqljsDriver"
 
 /**
  * A special EntityManager that includes import/export and load/save function

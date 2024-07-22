@@ -1,7 +1,7 @@
-import { Subject } from "../Subject"
-import { OrmUtils } from "../../util/OrmUtils"
-import { ObjectLiteral } from "../../common/ObjectLiteral"
-import { RelationMetadata } from "../../metadata/RelationMetadata"
+import { OrmUtils } from "@/util/OrmUtils"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { RelationMetadata } from "@/metadata/RelationMetadata"
+import { Subject } from "@/persistence/Subject"
 
 /**
  * Builds operations needs to be executed for one-to-one non-owner relations of the given subjects.

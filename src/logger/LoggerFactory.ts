@@ -4,7 +4,7 @@ import { SimpleConsoleLogger } from "./SimpleConsoleLogger"
 import { AdvancedConsoleLogger } from "./AdvancedConsoleLogger"
 import { FileLogger } from "./FileLogger"
 import { DebugLogger } from "./DebugLogger"
-import { ObjectUtils } from "../util/ObjectUtils"
+import { ObjectUtils } from "@/util/ObjectUtils"
 
 /**
  * Helps to create logger instances.

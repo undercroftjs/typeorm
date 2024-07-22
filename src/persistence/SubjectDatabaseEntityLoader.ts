@@ -1,8 +1,8 @@
 import { Subject } from "./Subject"
-import { ObjectLiteral } from "../common/ObjectLiteral"
-import { QueryRunner } from "../query-runner/QueryRunner"
-import { FindManyOptions } from "../find-options/FindManyOptions"
-import { MongoRepository } from "../repository/MongoRepository"
+import { ObjectLiteral } from "@/common/ObjectLiteral"
+import { QueryRunner } from "@/query-runner/QueryRunner"
+import { FindManyOptions } from "@/find-options/FindManyOptions"
+import { MongoRepository } from "@/repository/MongoRepository"
 
 /**
  * Loads database entities for all operate subjects which do not have database entity set.
